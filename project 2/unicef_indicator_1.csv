@@ -1,0 +1,128 @@
+country,alpha_2_code,alpha_3_code,numeric_code,indicator,time_period,obs_value,sex,unit_multiplier,unit_of_measure,observation_status,observation_confidentaility,time_period_activity_related_to_when_the_data_are_collected,current_age
+Afghanistan,AF,AFG,4,Proportion of children covered by social protection,2020,0.4,Total,,%,,,,Total
+Anguilla,AI,AIA,660,Proportion of children covered by social protection,2020,2,Total,,%,,,,Total
+Argentina,AR,ARG,32,Proportion of children covered by social protection,2020,79.6,Total,,%,,,,Total
+Armenia,AM,ARM,51,Proportion of children covered by social protection,2020,30.2,Total,,%,,,,Total
+Australia,AU,AUS,36,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Austria,AT,AUT,40,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Azerbaijan,AZ,AZE,31,Proportion of children covered by social protection,2020,16.9,Total,,%,,,,Total
+Bahrain,BH,BHR,48,Proportion of children covered by social protection,2020,56.7,Total,,%,,,,Total
+Bangladesh,BD,BGD,50,Proportion of children covered by social protection,2020,29.4,Total,,%,,,,Total
+Belgium,BE,BEL,56,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Belize,BZ,BLZ,84,Proportion of children covered by social protection,2020,3,Total,,%,,,,Total
+Benin,BJ,BEN,204,Proportion of children covered by social protection,2020,11.6,Total,,%,,,,Total
+Bhutan,BT,BTN,64,Proportion of children covered by social protection,2020,13.5,Total,,%,,,,Total
+"Bolivia, Plurinational State of",BO,BOL,68,Proportion of children covered by social protection,2020,66.2,Total,,%,,,,Total
+Bolivia,BO,BOL,68,Proportion of children covered by social protection,2020,66.2,Total,,%,,,,Total
+Botswana,BW,BWA,72,Proportion of children covered by social protection,2020,4.2,Total,,%,,,,Total
+Brazil,BR,BRA,76,Proportion of children covered by social protection,2020,67.7,Total,,%,,,,Total
+Bulgaria,BG,BGR,100,Proportion of children covered by social protection,2020,48.6,Total,,%,,,,Total
+Cape Verde,CV,CPV,132,Proportion of children covered by social protection,2020,37.9,Total,,%,,,,Total
+Cambodia,KH,KHM,116,Proportion of children covered by social protection,2020,4.5,Total,,%,,,,Total
+Cameroon,CM,CMR,120,Proportion of children covered by social protection,2020,1.8,Total,,%,,,,Total
+Canada,CA,CAN,124,Proportion of children covered by social protection,2020,39.7,Total,,%,,,,Total
+Central African Republic,CF,CAF,140,Proportion of children covered by social protection,2020,0.4,Total,,%,,,,Total
+Chile,CL,CHL,152,Proportion of children covered by social protection,2020,68.5,Total,,%,,,,Total
+China,CN,CHN,156,Proportion of children covered by social protection,2020,3,Total,,%,,,,Total
+Colombia,CO,COL,170,Proportion of children covered by social protection,2020,36,Total,,%,,,,Total
+Cook Islands,CK,COK,184,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Costa Rica,CR,CRI,188,Proportion of children covered by social protection,2020,38.8,Total,,%,,,,Total
+Cuba,CU,CUB,192,Proportion of children covered by social protection,2020,0.2,Total,,%,,,,Total
+Cyprus,CY,CYP,196,Proportion of children covered by social protection,2020,60.3,Total,,%,,,,Total
+"Congo, the Democratic Republic of the",CD,COD,180,Proportion of children covered by social protection,2016,1.3,Total,,%,,,,Total
+Denmark,DK,DNK,208,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Djibouti,DJ,DJI,262,Proportion of children covered by social protection,2019,3.5,Total,,%,,,,Total
+Dominican Republic,DO,DOM,214,Proportion of children covered by social protection,2020,62.1,Total,,%,,,,Total
+Ecuador,EC,ECU,218,Proportion of children covered by social protection,2020,8.6,Total,,%,,,,Total
+El Salvador,SV,SLV,222,Proportion of children covered by social protection,2020,8.5,Total,,%,,,,Total
+Eritrea,ER,ERI,232,Proportion of children covered by social protection,2020,0.1,Total,,%,,,,Total
+Estonia,EE,EST,233,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Ethiopia,ET,ETH,231,Proportion of children covered by social protection,2020,4.5,Total,,%,,,,Total
+Fiji,FJ,FJI,242,Proportion of children covered by social protection,2020,2.6,Total,,%,,,,Total
+Finland,FI,FIN,246,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+France,FR,FRA,250,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Georgia,GE,GEO,268,Proportion of children covered by social protection,2020,48.1,Total,,%,,,,Total
+Germany,DE,DEU,276,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Ghana,GH,GHA,288,Proportion of children covered by social protection,2020,25.9,Total,,%,,,,Total
+Guatemala,GT,GTM,320,Proportion of children covered by social protection,2020,2.6,Total,,%,,,,Total
+Haiti,HT,HTI,332,Proportion of children covered by social protection,2020,4.1,Total,,%,,,,Total
+Honduras,HN,HND,340,Proportion of children covered by social protection,2020,19.4,Total,,%,,,,Total
+Hungary,HU,HUN,348,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+India,IN,IND,356,Proportion of children covered by social protection,2020,24.1,Total,,%,,,,Total
+Indonesia,ID,IDN,360,Proportion of children covered by social protection,2020,25.6,Total,,%,,,,Total
+"Iran, Islamic Republic of",IR,IRN,364,Proportion of children covered by social protection,2020,16.4,Total,,%,,,,Total
+Ireland,IE,IRL,372,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Jamaica,JM,JAM,388,Proportion of children covered by social protection,2020,27,Total,,%,,,,Total
+Japan,JP,JPN,392,Proportion of children covered by social protection,2020,85.4,Total,,%,,,,Total
+Jordan,JO,JOR,400,Proportion of children covered by social protection,2020,8.8,Total,,%,,,,Total
+Kazakhstan,KZ,KAZ,398,Proportion of children covered by social protection,2020,57.4,Total,,%,,,,Total
+Kenya,KE,KEN,404,Proportion of children covered by social protection,2019,3.6,Total,,%,,,,Total
+Kiribati,KI,KIR,296,Proportion of children covered by social protection,2020,1.3,Total,,%,,,,Total
+Kyrgyzstan,KG,KGZ,417,Proportion of children covered by social protection,2020,16.9,Total,,%,,,,Total
+Latvia,LV,LVA,428,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Lesotho,LS,LSO,426,Proportion of children covered by social protection,2016,10.4,Total,,%,,,,Total
+Liberia,LR,LBR,430,Proportion of children covered by social protection,2020,5.8,Total,,%,,,,Total
+Liechtenstein,LI,LIE,438,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Luxembourg,LU,LUX,442,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Malawi,MW,MWI,454,Proportion of children covered by social protection,2020,9.8,Total,,%,,,,Total
+Malaysia,MY,MYS,458,Proportion of children covered by social protection,2020,2.8,Total,,%,,,,Total
+Maldives,MV,MDV,462,Proportion of children covered by social protection,2020,8.2,Total,,%,,,,Total
+Mali,ML,MLI,466,Proportion of children covered by social protection,2020,5.4,Total,,%,,,,Total
+Mexico,MX,MEX,484,Proportion of children covered by social protection,2020,23.4,Total,,%,,,,Total
+"Micronesia, Federated States of",FM,FSM,583,Proportion of children covered by social protection,2020,6.8,Total,,%,,,,Total
+Mongolia,MN,MNG,496,Proportion of children covered by social protection,2020,85,Total,,%,,,,Total
+Mozambique,MZ,MOZ,508,Proportion of children covered by social protection,2020,0.3,Total,,%,,,,Total
+Myanmar,MM,MMR,104,Proportion of children covered by social protection,2020,2.1,Total,,%,,,,Total
+Burma,MM,MMR,104,Proportion of children covered by social protection,2020,2.1,Total,,%,,,,Total
+Namibia,,NAM,516,Proportion of children covered by social protection,2020,22.8,Total,,%,,,,Total
+Nepal,NP,NPL,524,Proportion of children covered by social protection,2020,22.9,Total,,%,,,,Total
+Netherlands,NL,NLD,528,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+New Zealand,NZ,NZL,554,Proportion of children covered by social protection,2020,67.1,Total,,%,,,,Total
+Nicaragua,NI,NIC,558,Proportion of children covered by social protection,2020,3.1,Total,,%,,,,Total
+Niger,NE,NER,562,Proportion of children covered by social protection,2016,4.2,Total,,%,,,,Total
+Nigeria,NG,NGA,566,Proportion of children covered by social protection,2019,12,Total,,%,,,,Total
+Norway,NO,NOR,578,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Pakistan,PK,PAK,586,Proportion of children covered by social protection,2020,5.4,Total,,%,,,,Total
+Palau,PW,PLW,585,Proportion of children covered by social protection,2019,60,Total,,%,,,,Total
+Panama,PA,PAN,591,Proportion of children covered by social protection,2020,21.5,Total,,%,,,,Total
+Paraguay,PY,PRY,600,Proportion of children covered by social protection,2020,18.6,Total,,%,,,,Total
+Peru,PE,PER,604,Proportion of children covered by social protection,2020,16.1,Total,,%,,,,Total
+Philippines,PH,PHL,608,Proportion of children covered by social protection,2020,31.1,Total,,%,,,,Total
+Poland,PL,POL,616,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Portugal,PT,PRT,620,Proportion of children covered by social protection,2020,93.1,Total,,%,,,,Total
+"Korea, Republic of",KR,KOR,410,Proportion of children covered by social protection,2020,40,Total,,%,,,,Total
+South Korea,KR,KOR,410,Proportion of children covered by social protection,2020,40,Total,,%,,,,Total
+Romania,RO,ROU,642,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Russian Federation,RU,RUS,643,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Russia,RU,RUS,643,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Rwanda,RW,RWA,646,Proportion of children covered by social protection,2020,5.2,Total,,%,,,,Total
+Samoa,WS,WSM,882,Proportion of children covered by social protection,2018,0,Total,,%,,,,Total
+Saudi Arabia,SA,SAU,682,Proportion of children covered by social protection,2020,3,Total,,%,,,,Total
+Senegal,SN,SEN,686,Proportion of children covered by social protection,2019,1,Total,,%,,,,Total
+Sierra Leone,SL,SLE,694,Proportion of children covered by social protection,2020,0.8,Total,,%,,,,Total
+Slovakia,SK,SVK,703,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Slovenia,SI,SVN,705,Proportion of children covered by social protection,2020,79.4,Total,,%,,,,Total
+South Africa,ZA,ZAF,710,Proportion of children covered by social protection,2020,76.6,Total,,%,,,,Total
+South Sudan,SS,SSD,728,Proportion of children covered by social protection,2020,17.7,Total,,%,,,,Total
+Spain,ES,ESP,724,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Sri Lanka,LK,LKA,144,Proportion of children covered by social protection,2020,32,Total,,%,,,,Total
+"Palestinian Territory, Occupied",PS,PSE,275,Proportion of children covered by social protection,2020,12.1,Total,,%,,,,Total
+Suriname,SR,SUR,740,Proportion of children covered by social protection,2020,57.9,Total,,%,,,,Total
+Sweden,SE,SWE,752,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Switzerland,CH,CHE,756,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+Tajikistan,TJ,TJK,762,Proportion of children covered by social protection,2020,14,Total,,%,,,,Total
+Thailand,TH,THA,764,Proportion of children covered by social protection,2020,21,Total,,%,,,,Total
+Timor-Leste,TL,TLS,626,Proportion of children covered by social protection,2020,38.2,Total,,%,,,,Total
+Togo,TG,TGO,768,Proportion of children covered by social protection,2017,49,Total,,%,,,,Total
+Tonga,TO,TON,776,Proportion of children covered by social protection,2020,3.3,Total,,%,,,,Total
+Trinidad and Tobago,TT,TTO,780,Proportion of children covered by social protection,2020,14.6,Total,,%,,,,Total
+Tunisia,TN,TUN,788,Proportion of children covered by social protection,2020,28.6,Total,,%,,,,Total
+Ukraine,UA,UKR,804,Proportion of children covered by social protection,2020,100,Total,,%,,,,Total
+United Arab Emirates,AE,ARE,784,Proportion of children covered by social protection,2020,1,Total,,%,,,,Total
+United Kingdom,GB,GBR,826,Proportion of children covered by social protection,2020,65.6,Total,,%,,,,Total
+Uzbekistan,UZ,UZB,860,Proportion of children covered by social protection,2020,29.2,Total,,%,,,,Total
+Vanuatu,VU,VUT,548,Proportion of children covered by social protection,2019,12.9,Total,,%,,,,Total
+Viet Nam,VN,VNM,704,Proportion of children covered by social protection,2019,1,Total,,%,,,,Total
+Vietnam,VN,VNM,704,Proportion of children covered by social protection,2019,1,Total,,%,,,,Total
+Zambia,ZM,ZMB,894,Proportion of children covered by social protection,2016,21.1,Total,,%,,,,Total
+Zimbabwe,ZW,ZWE,716,Proportion of children covered by social protection,2020,6.7,Total,,%,,,,Total

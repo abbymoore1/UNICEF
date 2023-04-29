@@ -1,0 +1,134 @@
+---
+title: "MT5000 Final Assignment"
+author: "Abby Moore"
+date: "04/29/23"
+format: html
+editor: visual
+echo: false
+warning: false
+message: false
+---
+
+```{r}
+#!label: set up
+#include: false
+
+library(tidyverse)
+library(maps)
+
+```
+
+```{r}
+install.packages("tidyverse")
+install.packages("maps")
+
+unicef_indicator_1 <- read.csv("unicef_indicator_1.csv")
+map_world <- map_data("world")
+unicef_2020 <- unicef_indicator_1 %>%
+filter(time_period == 2020, obs_value > 0) %>% select(country, obs_value)
+map_obs_2020 <- full_join(map_world, unicef_2020, by = c("region" = "country"))
+ggplot(data = map_obs_2020) +
+aes(x = long, y = lat, group = group, fill = obs_value) +
+geom_polygon() +
+  scale_fill_gradient(low = "white", high = "orange") +
+labs(title = "Proportion of Children Covered by Social Protection", x = "", y = "") +
+theme_classic()
+```
+
+## Proportion of Children Covered by Social Protection
+
+As defined by the United Nations, social protection is a concept concerned with preventing, managing and overcoming situations that cause harm to an individuals health and well-being.
+
+Social protection refers to the programmes, procedures and policies used to shield children from impoverishment and deprivation.
+
+However, according to a report published by UNICEF, nearly two third of children around the world are not covered by social protection.
+
+The map is based on longitude (generated) and lattitude (generated). Colour is used to exhibit the observation value for each country.
+
+```{r}
+unicef_metadata <- read.csv("unicef_metadata.csv")
+countries <- c("Ireland", "Germany", "France", "Spain", "Sweden", "Norway")
+unicef_gdp_2020 <- unicef_metadata %>%
+filter(year == 2020, country %in% countries) %>% select(country, gdp = "GDP.per.capita..constant.2015.US..")
+unicef_gdp_2020
+
+ggplot(data = unicef_gdp_2020) +
+  aes(x = country, y = gdp) +
+  geom_bar(stat = "identity", fill = "orange") +
+  labs(title = "Gross Domestic Product per Capita (sample)", x = "Country", y = "GDP") +
+  theme_classic()
+```
+
+## Gross Domestic Product (GPD) per Capita
+
+There is a direct correlation between countries Gross Domestic Product (GDP) and their proportion of children covered by social protection.
+
+On average, countries spend **1.1 percent** of their Gross Domestic Product on child benefits and support. Therefore, those with a higher GDP usually achieve a higher proportion of children covered by social protection.
+
+The bar chart below considers a random sample of **six European countries,** including:
+- Spain
+- France
+- Germany
+- Ireland
+- Norway
+- Sweden
+
+The results vary from country to country. However, the figures are relatively high when compared with other countries around the world.
+
+```{r}
+
+library(tidyverse)
+
+countries <- c( "Germany", "France", "Ireland", "Spain", "Norway", "Sweden")
+pop_by_country <- read.csv("unicef_metadata.csv") %>%
+  filter(country %in% countries) %>% select(country, year, pop = "Population..total")
+
+ggplot(data = pop_by_country) +
+  aes(x = year, y = pop, color = country) +
+  geom_line() +
+  labs(title = "Population Growth (sample)", x = "Country", y = "Population") +
+  theme_classic()
+```
+
+## Population Growth
+
+Population growth remains steady, in countries across the globe.
+
+The time series below considers a random sample of **six European countries**, including: 
+- Spain
+- France
+- Germany
+- Ireland
+- Norway
+- Sweden
+
+From the bar plot, the viewer can see that France, Germany and Spain have larger populations than Ireland, Norway and Sweden. However, all six countries have observed population growth, in recent years.
+
+```{r}
+library(tidyverse)
+
+unicef_metadata <- read.csv("unicef_metadata.csv")
+unicef_indicator_1 <- read.csv("unicef_indicator_1.csv") %>%
+  filter(time_period == 2020, obs_value > 0)
+
+unicef_gdp_2020 <- unicef_metadata %>%
+  filter( year == 2020) %>%
+  drop_na() %>%
+  select(country, gdp = "GDP.per.capita..constant.2015.US..")
+obs_2020 <- left_join(unicef_gdp_2020, unicef_indicator_1, by = "country") %>%
+  select(gdp, obs_value, country) %>%
+  drop_na()
+
+ggplot(data = obs_2020) + 
+  aes(x = gdp, y = obs_value, color = "orange") +
+  geom_point(alpha = 0.5, size = 1.5) +
+  geom_smooth() +
+  labs(title = "GDP Compared with Porportion of Children Covered by Social Protection", x = "Porportion of Children Covered by Social Protection", y = "GDP") +
+  theme_classic()
+```
+
+## Gross Domestic Product (GDP) Compared with Proportion of Children Covered by Social Protection
+
+As explained previously, there is a direct correlation between countries Gross Domestic Product (GDP) and their proportion of children covered by social protection. This is clear in the scatter plot below.
+
+The graph shows two quantitative variables, and comapares GDP with the respective country's proportion of children covered by social protection. A regression line is used to highlight a **linear trend.**
